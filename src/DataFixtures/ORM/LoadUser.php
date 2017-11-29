@@ -9,6 +9,7 @@ use Doctrine\Common\Persistence\ObjectManager;
 class LoadUser extends Fixture
 {
     const USER_PASSWORD = 'user';
+    const AUTHOR_PASSWORD = 'author';
 
     public function load(ObjectManager $manager)
     {
